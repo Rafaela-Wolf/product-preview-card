@@ -1,5 +1,30 @@
-@media (max-width: 375px){
-    .container {
-        max-width: 200px;
+@media (max-width: 480px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .section-img {
+        background-image: url(/src/images/image-product-mobile.jpg);
+        min-height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 300px;
+        height: 50px;
+    }
+
+    .description {
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+        text-align: center;
+    }
+
+    .price {
+        justify-content: center;
     }
 }
